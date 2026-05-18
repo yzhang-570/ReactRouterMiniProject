@@ -1,0 +1,40 @@
+/* Centers page content */
+.main {
+  padding: 0rem;
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+
+/* Holds navlinks, page content */
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  /* background-color: rgb(255, 255, 255); */
+
+  border-radius: 20px;
+  padding: 2rem;
+
+  min-height: 60vh;
+  width: 25vw;
+  gap: 5vh;
+}
+
+.main-content-div {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* Holds navlinks */
+.nav-div {
+  /* background-color: gray; */
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

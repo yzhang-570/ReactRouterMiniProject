@@ -1,0 +1,28 @@
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(186, 186, 186); */
+  flex-grow: 1;
+  height: 100%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 0; */
+  flex-grow: 1;
+  /* background-color: gray; */
+  padding: 1rem;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 10px;
+}
+
+.project-card:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.project-img {
+  width: 10rem;
+  border-radius: 10px;
+}
