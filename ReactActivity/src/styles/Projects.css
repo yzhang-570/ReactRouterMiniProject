@@ -4,6 +4,7 @@
   /* background-color: rgb(186, 186, 186); */
   flex-grow: 1;
   height: 100%;
+  gap: 0.5rem;
 }
 
 .project-card {
@@ -14,15 +15,26 @@
   flex-grow: 1;
   /* background-color: gray; */
   padding: 1rem;
-  border: 1px solid rgb(210, 210, 210);
-  border-radius: 10px;
+  /* border: 1px solid rgb(210, 210, 210); */
+  /* border-radius: 10px; */
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0px 2px 5px rgb(151, 151, 151);
 }
 
 .project-card:hover {
-  background-color: rgb(230, 230, 230);
+  transform: scale(1.01);
+}
+
+.project-card:hover {
+  /* background-color: rgb(230, 230, 230); */
 }
 
 .project-img {
   width: 10rem;
   border-radius: 10px;
+}
+
+.github-link {
+  text-decoration: none;
 }

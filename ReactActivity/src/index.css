@@ -40,3 +40,8 @@ p {
 li {
   color: rgb(68, 68, 68);
 }
+
+.subtext {
+  font-size: 0.9rem;
+  color: rgb(68, 68, 68);
+}

@@ -6,10 +6,8 @@ const Contact = () => {
     <div className="contact-div">
       {/* Heading */}
       <h1>
-        Connect with me!
+        Leave a Message
       </h1>
-
-      <p>Leave a message</p>
 
       <div className="contact-content-div">
 
@@ -18,7 +16,7 @@ const Contact = () => {
           <InputField fieldName="Name" fieldPlaceholder="Enter your name"/>
           <InputField fieldName="Email" fieldPlaceholder="Enter your email"/>
           <div className="inputfield-div">
-            <label className="input-label" for="textField">Message</label>
+            {/* <label className="input-label" for="textField">Message</label> */}
             <textarea className="input-field" id="textField" row="100" type="text" placeholder="Begin typing your message..." />
           </div>
 
